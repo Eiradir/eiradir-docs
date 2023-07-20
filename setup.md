@@ -41,11 +41,14 @@ You can then press the Run button to start the server normally, or the Debug but
 
 ## Quickstart
 
-If you don't intend to develop any client-side code or want to get started quickly, you can simply launch Godot and import the `eiradir-client` folder's `project.godot` file to load the project.
+If you are only going to work on server-side content, the easiest way is to just launch the [latest public release of the client](https://blaytheninth.itch.io/eiradir). 
+However, this version may not always play well with the latest development version of the server, and won't contain any recently made changes.
 
-It may take a minute or two to perform the initial asset import. 
-If you press Play early, you may run into errors about missing resources or dependencies. 
-In that case, simply press "Next" or "Ignore", stop the game, wait for the importing to finish, and only then press Play to start the game again.
+A better alternative, even if you don't intend to develop any client-side code, is to simply launch Godot and import the `eiradir-client` folder's `project.godot` file to load the project.
+
+It may take a minute or two to perform the initial asset import. Wait until the main scene is fully loaded (which indicates that importing has likely completed), then press Play.
+
+If you press Play early, you may run into errors about missing resources or dependencies. In that case, simply press "Next" or "Ignore", stop the game, wait for the importing to finish, and only then press Play to start the game again.
 
 ## Setup
 
