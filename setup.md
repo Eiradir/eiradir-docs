@@ -1,9 +1,9 @@
 # Prerequisites
 
 - Git
-- Java 17 or higher
-- [Godot](https://godotengine.org/) 4.1.1
-- [Visual Studio Code](https://code.visualstudio.com/) (not Visual Studio) for developing client-side code
+- Java 17 or higher for running a local server
+- [Godot](https://godotengine.org/) 4.1.1 for client development or running the development version of the client
+- [Visual Studio Code](https://code.visualstudio.com/) (not Visual Studio) for developing client-side code (GDScript and C#)
 - [IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/download/?section=windows#:~:text=free%20to%20use-,IntelliJ%20IDEA%20Community%20Edition,-The%20IDE%20for) for developing server-side code or content
 
 It's a good idea to create a folder to hold everything Eiradir related, as you'll be cloning at least two different repositories.
