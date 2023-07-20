@@ -1,7 +1,7 @@
 # Prerequisites
 
 - Git
-- Java 17 or higher for running a local server
+- Java Development Kit 17 or higher for building and running a local server (if you install IntelliJ, it can manage JDKs for you)
 - [Godot](https://godotengine.org/) 4.1.1 for client development or running the development version of the client
 - [Visual Studio Code](https://code.visualstudio.com/) (not Visual Studio) for developing client-side code (GDScript and C#)
 - [IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/download/?section=windows#:~:text=free%20to%20use-,IntelliJ%20IDEA%20Community%20Edition,-The%20IDE%20for) for developing server-side code or content
