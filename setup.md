@@ -49,7 +49,13 @@ In that case, simply press "Next" or "Ignore", stop the game, wait for the impor
 
 ## Setup
 
-**TODO** Describe Visual Studio Code setup + extensions
+In order to edit client-side code, it is best to use Visual Studio Code as it can offer some more advanced features over the inbuilt Godot code editor.
+
+Open the `eiradir-client` folder in VS Code and install the [godot-tools](https://marketplace.visualstudio.com/items?itemName=geequlim.godot-tools) extension.
+
+Then inside Godot, under `Editor -> Editor Settings`, find `Text Editor -> External` and enable `Use External Editor`. Select the `Code.exe` executable of VS Code, usually found under `C:\Users\YOURUSERNAME\AppData\Local\Programs\Microsoft VS Code\Code.exe`.
+
+It might also be a good idea to enable `Auto Reload Scripts on External Change` in `Text Editor -> Behavior`, as there's an issue in Godot where it overwrites script files with an outdated local state when it runs into errors. While we haven't tested if this option helps mitigate that, it should probably do the trick and we'll find out for sure soon.
 
 # First Steps
 
@@ -71,5 +77,5 @@ Finally, join the game with your newly created character and, assuming everythin
 
 # Next Steps
 
-**TODO** Add links to individual topic guides
-**TODO** Add links to contribution guide
+- In the future, this will link to some simple topics like adding an item or an interaction. But those guides are not written yet.
+- If you are interested in contributing to the project, read through the [Contribution Guide](https://github.com/Eiradir/eiradir-docs/blob/main/CONTRIBUTING.md).
