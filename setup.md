@@ -49,6 +49,8 @@ In that case, simply press "Next" or "Ignore", stop the game, wait for the impor
 
 ## Setup
 
+Start by following the Quickstart guide above, as you need the project imported into Godot either way.
+
 In order to edit client-side code, it is best to use Visual Studio Code as it can offer some more advanced features over the inbuilt Godot code editor.
 
 Open the `eiradir-client` folder in VS Code and install the [godot-tools](https://marketplace.visualstudio.com/items?itemName=geequlim.godot-tools) extension.
