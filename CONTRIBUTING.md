@@ -29,8 +29,6 @@ This process is described in more detail in the following sections.
 
 This documentation itself is open source as well, and we encourage you to help us improve it by creating Issues or Pull Requests for things you've found lacking or missing.
 
-Help us improve our documentation, whether it's code comments, READMEs, or wiki pages. Good documentation is as important as good code!
-
 ### Testing
 
 Testing new features and changes is critical. You can help by testing the game and providing feedback.
@@ -38,6 +36,7 @@ Testing new features and changes is critical. You can help by testing the game a
 ### Community
 
 Become active in our community. Help answer questions, provide support to others, and promote our project!
+
 However, if you do choose to promote the project, please do not make it appear as though you were an official source.
 
 ## Finding tasks to work on
