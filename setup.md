@@ -72,15 +72,10 @@ Characters however only live locally within each server, so you will have to cre
 
 Finally, join the game with your newly created character and, assuming everything was set up correctly, you should be able to see the map and be able to walk around.
 
-## Making a first change to the server
-
-**TODO** Figure out some simple task with very visible results as an ice-breaker
-
-## Making a first change to the client
-
-**TODO** Figure out some simple task with very visible results as an ice-breaker
-
 # Next Steps
 
-- In the future, this will link to some simple topics like adding an item or an interaction. But those guides are not written yet.
+- Some examples for things you could do next:
+  - [Add a new item](https://github.com/Eiradir/eiradir-docs/blob/main/items.md) and [add functionality to it](https://github.com/Eiradir/eiradir-docs/blob/main/interactions.md)
+  - [Add a new process](https://github.com/Eiradir/eiradir-docs/blob/main/processes.md) and [apply it to a trait](https://github.com/Eiradir/eiradir-docs/blob/main/traits.md)
+  - [Add a new command](https://github.com/Eiradir/eiradir-docs/blob/main/commands.md)
 - If you are interested in contributing to the project, read through the [Contribution Guide](https://github.com/Eiradir/eiradir-docs/blob/main/CONTRIBUTING.md).
