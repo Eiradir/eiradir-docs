@@ -2,6 +2,11 @@
 
 Developer documentation for the Eiradir online roleplaying game.
 
+At this time, we don't have any website setup for these pages yet. However, all content can be viewed here:
+
+- [Setting up a Development Environment](setup.md)
+- [Contribution Guide](CONTRIBUTING.md)
+
 ## Prerequisites
 
 - ??? 
