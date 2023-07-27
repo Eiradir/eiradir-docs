@@ -92,7 +92,7 @@ class VeryCoolPlugin : EiradirPlugin {
 
 ```kotlin
 class VeryCoolKtorSetup : KtorInitializer {
-    override fun Application.configureRoutes() {
+    override fun Routing.configureRoutes() {
         get("/hello") {
             call.respond("Hello World")
         }
