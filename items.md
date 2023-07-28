@@ -1,5 +1,7 @@
 # Adding an Item
 
+An item is any object that can be placed in an inventory or on the world map that can hold properties such as durability and quality, can optionally be stacked, and is distinct from an autonomous being with skills and attributes like a player, NPC or monster would be. In human terms: Trees, walls, swords and apples are all items, and an item does not necessarily have to actually fit into an inventory for it to be considered as such.
+
 ## 1. Register the item in a [server plugin](server-plugins.md) initializer
 
 In most cases, this can be done in our existing content plugin, unless you want to specifically separate an item out into a separate content module.
