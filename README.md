@@ -10,6 +10,7 @@ At this time, we don't have any website setup for these pages yet. However, all 
 - [Adding an Item](items.md)
 - [Adding an Interaction](interactions.md)
 - [Adding a Process](processes.md)
+- [Adding a Visual Trait (Hair, Beards)](vists.md)
 
 ## Prerequisites
 
