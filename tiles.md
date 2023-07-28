@@ -44,6 +44,8 @@ Next, hover over the tile in the tileset to find out its Atlas Coordinates. Thes
 
 ## 4. Setup transitions for the tile
 
+Tiles found in nature, such as grass, rocks, sand or dirt, benefit from having transitions. Humanmade tiles such as building floors however don't require transitions, as there's no need for them to look natural.
+
 This step is even worse than the previous one. If you check the `data/transitions` folder, you will see that it's also just a bunch of TileDefinitions, albeit with much weirder and larger ids.
 Instead of defining ids manually, transition ids are a composite of their corresponding tile and the directions that they extend towards.
 
@@ -56,7 +58,7 @@ transition_id = (tile_id << 8) | packed_directions
 Right now, there is no template or tool that can generate the transition textures you will need. You would have to manually mask them based on the existing transitions.
 You will also have to then regenerate the transitions atlas, and manually calculate the appropriate transition ids and create all the TileDefinitions for your transitions.
 
-Let's just not touch tiles for the time being.
+Let's just not touch natural tiles for the time being, unless you really want to go through this painful process. Or maybe you want to create a tool that takes care of all this for us - that'd be neat.
 
 ## 5. Test that everything worked
 
