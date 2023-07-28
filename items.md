@@ -15,9 +15,9 @@ class Items(define: RegistryBuilders) : Initializer {
 }
 ```
 
-## 2. Assign an id to the item
+### Assign an id to the item
 
-When stored in the database or sent over the network, we use a numneric id to represent the item. This id must be statically defined in the id_mappings.ini file of the server.
+When stored in the database or sent over the network, we use a numneric id to represent the item. This id must be statically defined in the `id_mappings.ini` file of the server.
 
 ```ini
 [items]
@@ -25,7 +25,7 @@ When stored in the database or sent over the network, we use a numneric id to re
 1300 = "cool_sword"
 ```
 
-## 3. Create an iso for the item
+## 3a. Create an iso for the item (optional)
 
 An "iso" is any visual representation of an isometric object or being - a pig is an iso, a sword is an iso, a tree is an iso and a wall is an iso.
 
@@ -36,7 +36,9 @@ In the `data/isos` folder of the client, create a new resource of type `IsoDefin
 The most important properties to fill in are "Scene", which is a Godot scene containing the visual representation of the object (usually just a Sprite with offsets applied), 
 and for items that can be held in inventories, "Texture", which is the simple 2d texture to use as an item icon.
 
-## 4. Assign an id to the iso
+Reference existing iso definitions (`data/isos`) and iso scenes (`assets/items`) to find your way around. For static structures such as walls or furniture, you will likely also want to enable "Is Solid" and "Disallow Drag" in the iso definition.
+
+### Assign an id to the iso
 
 Just like an item, an iso also needs a numeric id. By convention, item isos should follow a rule of `10000 + itemId`. The first 10000 iso ids are reserved for player races, monsters and animals.
 
@@ -48,11 +50,7 @@ Currently, id mappings must be manually updated on **both client and server** - 
 11300 = "cool_sword"
 ```
 
-## 5. Test that everything worked
-
-After restarting the server and client, run `/item get cool_sword` and you should find your newly created item in your inventory.
-
-# Reusing an existing item graphic
+## 3b. Reuse an existing item graphic
 
 Sometimes, we may want to have a new item but don't necessarily have a unique graphic for it (e.g. for special quest variants of an item).
 
@@ -69,3 +67,14 @@ class Items(define: RegistryBuilders) : Initializer {
 ```
 
 Our cool sword will still be a completely separate item, but will use the visual of the sadakari sword. This means that items can be added without requiring a client update, as long as they reuse an existing visual.
+
+## 4. Test that everything worked
+
+After restarting the server and client, run `/item get cool_sword` and you should find your newly created item in your inventory.
+
+## Next Steps
+
+- See [Interactions](interactions.md) to find out how to add logic to your items, such as right-click menu actions.
+- See [Crafting](crafting.md) to learn how to add a crafting recipe for your new item.
+- See [Clothing](clothing.md) to find out how to turn your item into wearable clothing.
+- See [Advanced Items](items-advanced.md) to learn how to apply advanced properties to items, such as nutrition and combat values for food, swords and armors.
