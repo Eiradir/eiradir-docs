@@ -8,6 +8,7 @@ At this time, we don't have any website setup for these pages yet. However, all 
 - [Contribution Guide](CONTRIBUTING.md)
 - [Server Plugins](server-plugins.md)
 - [Adding an Item](items.md)
+- [Adding an Tile](tiles.md)
 - [Adding an Interaction](interactions.md)
 - [Adding a Process](processes.md)
 - [Adding a Visual Trait (Hair, Beards)](vists.md)
