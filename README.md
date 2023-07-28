@@ -9,6 +9,7 @@ At this time, we don't have any website setup for these pages yet. However, all 
 - [Server Plugins](server-plugins.md)
 - [Adding an Item](items.md)
 - [Adding an Interaction](interactions.md)
+- [Adding a Process](processes.md)
 
 ## Prerequisites
 
