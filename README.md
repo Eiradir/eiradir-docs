@@ -13,6 +13,7 @@ At this time, we don't have any website setup for these pages yet. However, all 
 - [Adding Tiles](tiles.md)
 - [Adding Interactions](interactions.md)
 - [Adding Processes](processes.md)
+- [Adding HUDs](huds.md)
 - [Customizing Tooltips](tooltips.md)
 - [Customizing Menus](menus.md)
 
