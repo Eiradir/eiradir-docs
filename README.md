@@ -11,6 +11,8 @@ At this time, we don't have any website setup for these pages yet. However, all 
 - [Adding an Interaction](interactions.md)
 - [Adding a Process](processes.md)
 - [Adding a Visual Trait (Hair, Beards)](vists.md)
+- [Customizing Tooltips](tooltips.md)
+- [Customizing Menus](menus.md)
 
 ## Prerequisites
 
