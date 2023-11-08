@@ -44,7 +44,7 @@ For detailed information on everything to consider when contributing, please rea
 
 ## License
 
-See [LICENSE](LICENSE) for more information.
+See [LICENSE](LICENSE.md) for more information.
 
 ## Community
 
