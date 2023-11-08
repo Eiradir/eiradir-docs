@@ -75,7 +75,7 @@ Finally, join the game with your newly created character and, assuming everythin
 # Next Steps
 
 - Some examples for things you could do next:
-  - [Add a new item](https://github.com/Eiradir/eiradir-docs/blob/main/items.md) and [add functionality to it](https://github.com/Eiradir/eiradir-docs/blob/main/interactions.md)
-  - [Add a new process](https://github.com/Eiradir/eiradir-docs/blob/main/processes.md) and [apply it to a trait](https://github.com/Eiradir/eiradir-docs/blob/main/traits.md)
-  - [Add a new command](https://github.com/Eiradir/eiradir-docs/blob/main/commands.md)
-- If you are interested in contributing to the project, read through the [Contribution Guide](https://github.com/Eiradir/eiradir-docs/blob/main/CONTRIBUTING.md).
+  - [Add a new item](./items.md) and [add functionality to it](./interactions.md)
+  - [Add a new process](./processes.md) and [apply it to a trait](#)
+  - [Add a new command](#)
+- If you are interested in contributing to the project, read through the [Contribution Guide](./CONTRIBUTING.md).
