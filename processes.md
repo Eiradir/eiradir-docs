@@ -58,7 +58,7 @@ define.process("picking_fruit") {
 
 In the above example, while it may look like we would print "Hello World" after a second has passed, that is not the case. In reality, the above code is more akin to something like this:
 
-```kotiln
+```kotlin
 tasks.add(TimedTask {
     duration = 1000
 })

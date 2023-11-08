@@ -49,7 +49,7 @@ Tiles found in nature, such as grass, rocks, sand or dirt, benefit from having t
 This step is even worse than the previous one. If you check the `data/transitions` folder, you will see that it's also just a bunch of TileDefinitions, albeit with much weirder and larger ids.
 Instead of defining ids manually, transition ids are a composite of their corresponding tile and the directions that they extend towards.
 
-```gd
+```gdscript
 # Directions are packed bits in order SE = 128, S, SW, E, W, NE, N, NW = 1
 packed_directions = 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1
 transition_id = (tile_id << 8) | packed_directions

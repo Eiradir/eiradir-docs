@@ -77,6 +77,6 @@ After restarting the server and client, run `/item get cool_sword` and you shoul
 ## Next Steps
 
 - See [Interactions](interactions.md) to find out how to add logic to your items, such as right-click menu actions.
-- See [Crafting](crafting.md) to learn how to add a crafting recipe for your new item.
+- See [Crafting](#) to learn how to add a crafting recipe for your new item.
 - See [Clothing](clothing.md) to find out how to turn your item into wearable clothing.
-- See [Advanced Items](items-advanced.md) to learn how to apply advanced properties to items, such as nutrition and combat values for food, swords and armors.
+- See [Advanced Items](#) to learn how to apply advanced properties to items, such as nutrition and combat values for food, swords and armors.
