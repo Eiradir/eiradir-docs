@@ -31,6 +31,9 @@ export default defineConfig({
           autogenerate: { directory: "guides" },
         },
       ],
+	  components: {
+		Footer: './src/components/CustomFooter.astro'
+	  }
     }),
   ],
 });
