@@ -2,20 +2,7 @@
 
 Developer documentation for the Eiradir online roleplaying game.
 
-At this time, we don't have any website setup for these pages yet. However, all content can be viewed here:
-
-- [Setting up a Development Environment](setup.md)
-- [Contribution Guide](CONTRIBUTING.md)
-- [Server Plugins](server-plugins.md)
-- [Adding Items](items.md)
-- [Adding Clothing](clothing.md)
-- [Adding Visual Traits (Hair, Beards)](vists.md)
-- [Adding Tiles](tiles.md)
-- [Adding Interactions](interactions.md)
-- [Adding Processes](processes.md)
-- [Adding HUDs](huds.md)
-- [Customizing Tooltips](tooltips.md)
-- [Customizing Menus](menus.md)
+View the live version of this repository at: https://dev.eiradir.net
 
 ## Prerequisites
 

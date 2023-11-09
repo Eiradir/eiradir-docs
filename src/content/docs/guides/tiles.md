@@ -1,3 +1,7 @@
+---
+title: Tiles
+---
+
 # Adding a Tile and Transitions
 
 A tile is any flat ground, floor or roof surface that can be placed in the world map, and optionally transition smoothly into one another.

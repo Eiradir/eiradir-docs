@@ -1,3 +1,7 @@
+---
+title: Tooltips
+---
+
 # Customizing Tooltips
 
 The act of viewing a tooltip is essentially the same as any other interaction. The client sends a `request_tooltip` interaction, which has some simple default implementations for the different kinds of items and entities.

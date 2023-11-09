@@ -1,3 +1,7 @@
+---
+title: Processes
+---
+
 # Defining Processes
 
 A process is any triggerable sequence of asynchronous and potentially interruptible actions and effects. 
