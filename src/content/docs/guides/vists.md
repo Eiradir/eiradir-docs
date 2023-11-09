@@ -1,3 +1,7 @@
+---
+title: Visual Traits
+---
+
 # Visual Traits - Hair and Beard Styles
 
 We've combined hair and beard styles under a common concept of "visual traits". Compared to normal clothing which is tied to a specific item, visual traits (or "vists" in short) can exist on a character regardless of equipment worn.

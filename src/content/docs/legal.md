@@ -1,4 +1,6 @@
-## Legal Notice
+---
+title: Legal Notice
+---
 
 **Angaben gemäß § 5 TMG**
     

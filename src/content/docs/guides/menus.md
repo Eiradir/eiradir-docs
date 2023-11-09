@@ -1,3 +1,7 @@
+---
+title: Menus
+---
+
 # Customizing Menus
 
 The act of opening a menu is essentially the same as any other interaction. The client sends a `request_menu` interaction, which by default is handled by populating a menu with all available interactions for this time.

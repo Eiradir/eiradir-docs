@@ -1,3 +1,7 @@
+---
+title: Server Plugins
+---
+
 # Server Plugins
 
 The Eiradir server utilizes a modular structure in which functionality and content is separated into individual "plugins".

@@ -1,3 +1,7 @@
+---
+title: Races
+---
+
 # Adding a Race
 
 Races are the base definition for any generally motile entity such as humanoids, animals and monsters.

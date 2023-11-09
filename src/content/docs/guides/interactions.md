@@ -1,3 +1,7 @@
+---
+title: Interactions
+---
+
 # Adding an Interaction
 
 Interactions are actions that the client can take against the world, such as picking a fruit from a tree, casting a spell, talking to an NPC, or dropping an item.

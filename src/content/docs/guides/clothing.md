@@ -1,3 +1,7 @@
+---
+title: Clothing
+---
+
 # Adding Clothing
 
 The only way that clothing is different from a regular item is that it has an equipment slot defined, and contains a paperdoll reference on the client.

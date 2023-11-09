@@ -1,3 +1,7 @@
+---
+title: HUDs
+---
+
 # Adding a HUD
 
 HUDs are any UI overlay or window that is displayed on the client and has a server-side counterpart providing data.
